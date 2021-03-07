@@ -19,12 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libsrc\back_of_words_maker.cpp" />
-    <ClCompile Include="..\..\libsrc\stop_words_remover.cpp" />
+    <ClCompile Include="..\libsrc\back_of_words_maker.cpp" />
+    <ClCompile Include="..\libsrc\stop_words_remover.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\libsrc\back_of_words_maker.h" />
-    <ClInclude Include="..\..\libsrc\stop_word_remover.h" />
+    <ClInclude Include="..\libsrc\back_of_words_maker.h" />
+    <ClInclude Include="..\libsrc\stop_word_remover.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

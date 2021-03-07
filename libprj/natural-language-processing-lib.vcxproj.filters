@@ -11,18 +11,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\libsrc\back_of_words_maker.cpp">
+    <ClCompile Include="..\libsrc\back_of_words_maker.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libsrc\stop_words_remover.cpp">
+    <ClCompile Include="..\libsrc\stop_words_remover.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\libsrc\back_of_words_maker.h">
+    <ClInclude Include="..\libsrc\back_of_words_maker.h">
       <Filter>inc</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libsrc\stop_word_remover.h">
+    <ClInclude Include="..\libsrc\stop_word_remover.h">
       <Filter>inc</Filter>
     </ClInclude>
   </ItemGroup>
