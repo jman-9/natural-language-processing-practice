@@ -7,8 +7,8 @@ using namespace std;
 
 int main()
 {
-	const char *datafile[] = 
-	{ 
+	const char *datafile[] =
+	{
 		"data/utf8-econ.txt",
 		"data/utf8-human.txt",
 		"data/utf8-sci.txt",
@@ -16,7 +16,7 @@ int main()
 	};
 	const char** datafilepos = datafile;
 
-	map<string, int> bag_of_words;	
+	map<string, int> bag_of_words;
 	char word[1024];
 	char buf[10240];
 
@@ -33,7 +33,7 @@ int main()
 
 			stringstream ss(buf);
 			ss >> word;
-			bag_of_words[word]++;        
+			bag_of_words[word]++;
 		}
 		fclose(fp);
 	}
