@@ -10,7 +10,8 @@
 - ~~extracting morphemes~~
 - ~~making bag-of-words~~
 - ~~removing stop-words~~
-- TF-IDF
+- ~~caculating TF-IDF~~
+- making 'Category Classifier'
 - cross-validation
 - ...
   
@@ -19,6 +20,7 @@
 	- https://github.com/Pusnow/mecab-ko-msvc
 - making bag-of-words
 - removing stop-words
+- caculating TF-IDF
 - ...
 
   
@@ -26,4 +28,5 @@
 1. test/morpheme-extraction-test
 2. test/bag-of-words-test
 3. test/stop-words-removal-test
-4. ...
+4. test/tf-idf-test
+5. ...

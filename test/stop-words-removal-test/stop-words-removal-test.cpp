@@ -22,6 +22,7 @@ int main()
 
 		stringstream ss(buf);
 		ss >> word >> cnt;
+		if(string("EOS") == word) continue;
 		bag_of_words[word] = cnt;
 	}
 	fclose(fp);

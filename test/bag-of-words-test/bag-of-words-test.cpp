@@ -33,6 +33,7 @@ int main()
 
 			stringstream ss(buf);
 			ss >> word;
+			if(string("EOS") == word) continue;
 			bag_of_words[word]++;
 		}
 		fclose(fp);
