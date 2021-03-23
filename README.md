@@ -11,6 +11,7 @@
 - ~~making bag-of-words~~
 - ~~removing stop-words~~
 - ~~caculating TF-IDF~~
+- MSE or cross-entropy loss function
 - making 'Category Classifier'
 - cross-validation
 - ...
